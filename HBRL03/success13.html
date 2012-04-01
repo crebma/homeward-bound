@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>stardaisystory</title>
+
+<meta name="Keywords" content="dog, cat, puppy, kitten, rescue, adopt, pet" />
+<meta name="Description" content="adopt a rescue animal" />
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	top: 18px;
+	left: 755px;
+}
+#apDiv2 {
+	position:absolute;
+	width:245px;
+	height:86px;
+	z-index:2;
+	left: 188px;
+	top: 142px;
+}
+#apDiv3 {
+	position:absolute;
+	width:169px;
+	height:49px;
+	z-index:3;
+	left: 235px;
+	top: 203px;
+}
+#apDiv4 {
+	position:absolute;
+	width:91px;
+	height:43px;
+	z-index:2;
+	left: 269px;
+	top: 349px;
+}
+#apDiv5 {
+	position:absolute;
+	width:200px;
+	height:35px;
+	z-index:2;
+	left: 544px;
+	top: 151px;
+}
+#apDiv6 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 563px;
+	top: 472px;
+}
+#apDiv7 {
+	position:absolute;
+	width:302px;
+	height:45px;
+	z-index:2;
+	left: 579px;
+	top: 531px;
+}
+#apDiv8 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 650px;
+	top: 883px;
+}
+.storycell {
+	margin: 0px;
+	float: none;
+	height: 535px;
+	width: 950px;
+	position: fixed;
+	left: 255px;
+	top: 0px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script src="file:///Macintosh HD/Users/jeanjedynak/Desktop/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<meta name="Keywords" content="dog, cat, puppy, kitten, rescue, adopt, pet" />
+<meta name="Description" content="adopt a rescue animal" />
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<script src="file:///Macintosh HD/Users/jeanjedynak/Desktop/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<style type="text/css">
+<!--
+#apDiv9 {
+	position:absolute;
+	width:148px;
+	height:36px;
+	z-index:1;
+	left: 206px;
+	top: 489px;
+	visibility: visible;
+}
+#apDiv10 {
+	position:absolute;
+	width:70px;
+	height:40px;
+	z-index:2;
+	left: 916px;
+	top: 385px;
+	visibility: visible;
+}
+#apDiv11 {
+	position:absolute;
+	visibility:visible;
+	width:200px;
+	height:15px;
+	z-index:3;
+	left: 554px;
+	top: 90px;
+}
+-->
+</style>
+<link href="assets/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#apDiv12 {
+	position:absolute;
+	visibility:visible;
+	width:438px;
+	height:473px;
+	z-index:4;
+	left: 579px;
+	top: 55px;
+}
+#apDiv13 {
+	position:absolute;
+	visibility:visible;
+	width:336px;
+	height:375px;
+	z-index:5;
+	left: 620px;
+	top: 149px;
+}
+#apDiv14 {
+	position:absolute;
+	visibility:visible;
+	width:30px;
+	height:19px;
+	z-index:6;
+	left: 885px;
+	top: 538px;
+}
+#apDiv {position:absolute;
+	width:148px;
+	height:36px;
+	z-index:1;
+	left: 205px;
+	top: 494px;
+	visibility: visible;
+}
+#apDiv15 {
+	position:absolute;
+	visibility:visible;
+	width:91px;
+	height:56px;
+	z-index:7;
+	left: 573px;
+	top: 730px;
+}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/volunteer-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/volunteer-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/events-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/tips-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/tips-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/adoptable-friends-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/adoptable-friends-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/emergency-needs-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/emergency-needs-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/emergency-needs-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/wish-list-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/wish-list-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/application-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/application-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/application-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/volunteer-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/success-stories-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/success-stories-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/success-stories-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/wish-list-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/events-down.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/events-over.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/tips-on.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/adoptable-friends-off.gif','file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Success stories page/buttons/leftarrowlb.gif')">
+<label>  </label>
+<table width="1200" height="713" border="0" align="left" cellpadding="0" cellspacing="0" bordercolor="0" bordercolorlight="0" bordercolordark="0" frame="void" dir="ltr">
+  <tr>
+    <td width="1200" height="636" align="left" valign="top" background="assets/successstoriespage/stardaisy.jpg">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="68" colspan="3" align="left" valign="top">
+    <table width="1200" border="0" cellpadding="0" cellspacing="0" frame="void">
+      <tr>
+        <td height="17" colspan="11" valign="top"><div align="center" class="footer"> Homeward Bound Rescue League,  P.O. Box 87591,  Canton, MI 48187     l <a href="mailto:homewardboundmi@yahoo.com" target="_blank">homewardboundmi@yahoo.com</a></div>
+        <tr>
+        <td width="99" height="24" rowspan="2">&nbsp;</td>
+          <td width="66" rowspan="2" valign="middle"><a href="http://www.avidid.com" target="_blank"><img src="assets/logos/avid.gif" alt="avid" width="65" height="32" border="0"></a></td>
+          <td height="24" colspan="3" valign="bottom"><div align="center"><span class="style15"><strong>HELPFUL LINKS</strong></span></div></td>
+          <td width="85" rowspan="2" valign="middle"><a href="http://www.dogchannel.com/" target="_blank"><img src="assets/logos/dogchannel.gif" alt="dogchannel" width="78" height="46" border="0" /></a></td>
+          <td height="24" valign="bottom">&nbsp;</td>
+          <td height="24" colspan="3" valign="bottom"><div align="center" class="style15">YOUR SHOPPING GOES FURTHER WITH...</div></td>
+          <td height="24" valign="bottom">&nbsp;</td>
+        </tr>
+      <tr>
+        <td width="184" height="34" valign="bottom"><div align="center"><a href="http://www.petsuppliesplus.com" target="_blank"><img src="assets/logos/psp.gif" alt="PET SUPPLIES" width="156" height="20" hspace="0" vspace="5" border="0" /></a></div></td>
+        <td width="124" valign="middle"><a href="http://www.purina.com/" target="_blank"><img src="assets/logos/purina.gif" alt="purina" width="114" height="20" border="0"></a></td>
+        <td width="136" valign="middle"><a href="http://www.cesarsway.com/"><img src="assets/logos/cesarsway.gif" alt="cesarsway" width="124" height="20" border="0" /></a></td>
+        <td width="60" height="34">&nbsp;</td>
+        <td width="153" align="right" valign="top"><a href="http://www.igive.com" target="_blank"><img src="assets/logos/igive.gif" alt="igive" width="120" height="24" border="0" /></a></td>
+        <td width="7" align="right" valign="top">&nbsp;</td>
+        <td width="172" valign="bottom"><a href="http://www.petmeds.com" target="_blank"><img src="assets/logos/petmeds.gif" alt="petmeds" width="151" height="33" border="0"></a></td>
+        <td width="114">&nbsp;</td>
+      </tr>
+    </table>  </td>
+  </tr>
+</table>
+<map name="signpost" id="signpost">
+<area shape="poly" coords="230,155,196,187,235,213,236,197,413,186,411,151,232,172,230,155" href="fostertoadopt.html" alt="adoptablefriends" />
+<area shape="rect" coords="238,208,392,241" href="events.html" alt="eventsfairs" />
+<area shape="poly" coords="213,248,226,270,210,292,404,292,402,312,449,277,406,239,405,260,214,247" href="vounteer.html" alt="volunteer" />
+<area shape="poly" coords="210,300,208,333,281,336,295,332,296,338,418,340,419,313,399,321,397,306,208,299" href="tipsfromcesar.html" alt="tips" />
+<area shape="poly" coords="286,341,244,359,282,386,286,376,364,384,352,366,362,351,286,352" href="wishlist.html" alt="wishlist" />
+</map>
+<div id="apDiv10"><a href="index.html"><img src="assets/featuredrescues/homebutton.jpg" alt="home" width="284" height="256" border="0" /></a></div>
+<div id="apDiv12">  <span class="style15">Daisy and Star's Story<br />
+  </span><span class="style12">I came to Homeward Bound looking to foster a dog. I left with two puppies named Star and Daisy that are Border Collie Mix’s and were 8 weeks old and sisters. One week into fostering them, I knew I wasn’t giving them back. We adopted them July 31, 2010. In Oct. 2010 Mark and I noticed Star beginning to limp. We took her to the vet and we were told to wait it out, she probably had a sprain. When it didn’t go away after two weeks, we took her back for x-rays. Our Dr. found that her elbow was not sitting in the socket like it should be. Her radial bone had stopped growing while her ulna continued to grow. This pushed the elbow out of the socket, leaving her elbow essentially floating and she needed surgery to correct the problem. They had to cut a piece of her ulna bone out to make it even with her radial bone so that her elbow would work its way back into the socket. It was going to be months and months of doctor’s appointments and money. I contacted Carrie to tell her about Star and to see if she had any advice. She let Mark and I come up to Pet Supplies Plus on an adoption day and hold a fundraiser for Star. They helped us out in a big way at a time when we needed it most. Everything was well spent and worth it. Star took everything like a champ. She had a cast on for about two weeks, and then had to have minimal activity for </span><span class="style12">about 4 months (which is very hard to do with a <br />
+  Border Collie who is not even a year old!). Daisy helped her sister through it all though, and today Star is as happy as ever.<br /> 
+  The both of them are inseparable and the best decision <br />
+  we ever made! They love playing in their pool and <br />
+  taking mom and dad for walks, and love playing with <br />
+  all their friends. They are real charmers and gorgeous <br />
+  dogs. I wouldn’t trade them for anything and I’m so <br />
+  grateful for Homeward Bound and all the amazing <br />
+  things that they do.<br />
+<br />
+- Elizabeth H
+</span><br />
+</div>
+<div id="apDiv14"><a href="success12.html"><img src="assets/successstoriespage/buttons/leftarrow.gif" alt="leftarrow" name="leftarrow" width="14" height="15" border="0" align="bottom" id="leftarrow2" /></a><a href="success14.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('rightarrow21','','assets/successstoriespage/buttons/rightarrowlb.gif',0)"><img src="assets/successstoriespage/buttons/rightarrow.gif" alt="rightarrow" name="rightarrow21" width="14" height="15" border="0" align="bottom" id="rightarrow21" /></a></div>
+<div id="apDiv9"><a href="mailto:homewardboundmi@yahoo.com?Subject=Here's My Story..."><img src="assets/successstoriespage/submitstory.jpg" alt="submit" width="201" height="41" border="0" /></a></div>
+<div id="apDiv15"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=www.hbrlmi.org','SiteLock','width=600,height=600,left=160,top=170');" ><img  src="http://shield.sitelock.com/shield/www.hbrlmi.org" alt="website security" border="0" title="SiteLock"/></a></div>
+</body>
+</html>
