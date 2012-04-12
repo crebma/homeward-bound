@@ -1,210 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="Keywords" content="dog, cat, puppy, kitten, rescue, adopt, pet" />
+  <meta name="Description" content="adopt a rescue animal" />
 
-<title>Events</title>
+  <title>Events</title>
 
-
-<meta name="Keywords" content="dog, cat, puppy, kitten, rescue, adopt, pet" />
-<meta name="Description" content="adopt a rescue animal" />
-<style type="text/css">
-<!--
-#apDiv1 {
-  position:absolute;
-  width:200px;
-  height:81px;
-  z-index:1;
-  top: -1px;
-  left: 732px;
-  visibility: visible;
-}
-#apDiv2 {
-  position:absolute;
-  width:245px;
-  height:86px;
-  z-index:2;
-  left: 188px;
-  top: 142px;
-}
-#apDiv3 {
-  position:absolute;
-  width:169px;
-  height:49px;
-  z-index:3;
-  left: 235px;
-  top: 203px;
-}
-#apDiv4 {
-  position:absolute;
-  width:91px;
-  height:43px;
-  z-index:2;
-  left: 269px;
-  top: 349px;
-}
-#apDiv5 {
-  position:absolute;
-  width:200px;
-  height:35px;
-  z-index:2;
-  left: 544px;
-  top: 151px;
-}
-#apDiv6 {
-  position:absolute;
-  width:200px;
-  height:115px;
-  z-index:3;
-  left: 563px;
-  top: 472px;
-}
-#apDiv7 {
-  position:absolute;
-  width:237px;
-  height:44px;
-  z-index:2;
-  left: 611px;
-  top: 540px;
-}
--->
-</style>
-<script type="text/javascript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_nbGroup(event, grpName) { //v6.0
-  var i,img,nbArr,args=MM_nbGroup.arguments;
-  if (event == "init" && args.length > 2) {
-    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
-      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
-      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
-      nbArr[nbArr.length] = img;
-      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-        if (!img.MM_up) img.MM_up = img.src;
-        img.src = img.MM_dn = args[i+1];
-        nbArr[nbArr.length] = img;
-    } }
-  } else if (event == "over") {
-    document.MM_nbOver = nbArr = new Array();
-    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
-      nbArr[nbArr.length] = img;
-    }
-  } else if (event == "out" ) {
-    for (i=0; i < document.MM_nbOver.length; i++) {
-      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
-  } else if (event == "down") {
-    nbArr = document[grpName];
-    if (nbArr)
-      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
-    document[grpName] = nbArr = new Array();
-    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
-      nbArr[nbArr.length] = img;
-  } }
-}
-//-->
-</script>
-<link href="assets/styles.css" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Corben:700' rel='stylesheet' type='text/css'>
-<style type="text/css">
-<!--
-#apDiv8 {
-  position:absolute;
-  width:200px;
-  height:115px;
-  z-index:3;
-  left: 114px;
-  top: 177px;
-  visibility: visible;
-}
-#apDiv9 {
-  position:absolute;
-  width:115px;
-  height:44px;
-  z-index:4;
-  left: 694px;
-  top: 495px;
-  visibility: visible;
-}
-#apDiv10 {
-  position:absolute;
-  width:115px;
-  height:44px;
-  z-index:5;
-  left: 649px;
-  top: 544px;
-  visibility: visible;
-}
-#apDiv11 {
-  position:absolute;
-  visibility:visible;
-  width:475px;
-  height:260px;
-  z-index:3;
-  left: 462px;
-  top: 171px;
-  overflow: scroll;
-}
-#apDiv16 {
-  position:absolute;
-  visibility:visible;
-  width:200px;
-  height:115px;
-  z-index:7;
-  left: 777px;
-  top: 82px;
-}
-#apDiv12 {
-  position:absolute;
-  visibility:visible;
-  width:104px;
-  height:61px;
-  z-index:8;
-  left: 574px;
-  top: 750px;
-}
--->
-.event-header {
-  font-family: 'Corben', cursive;
-  color: #013f9d;
-  font-size: 1.8em;
-}
-</style>
+  <script type="text/javascript" src="js/nav.js"></script>
+  <link href="lib/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Corben:700' rel='stylesheet' type='text/css'>
 </head>
 
-<body onload="MM_preloadImages('file:///Macintosh HD/Users/jeanjedynak/Desktop/HBRL assets/Nav. buttons/wish-list-off.gif')">
-<label>  </label>
+<body>
 
-<table width="1200" height="713" border="0" align="left" cellpadding="0" cellspacing="0" bordercolor="0" bordercolorlight="0" bordercolordark="0" frame="void" dir="ltr">
-  <tr>
-    <td width="550" height="636" align="right" valign="top" bordercolor="0"><img src="assets/eventsfairspage/eventssignbg.jpg" alt="sign" width="550" height="657" border="0" usemap="#Map3" /></td>
-    <td width="650" align="left" valign="top" background="assets/eventsfairspage/eventfeaturebg.jpg"><div id="apDiv11">
+<div class="container">
+  <img class="logo" src="images/logo.png" />
+  <img class="featured-dog" src="images/dogAndCat2.png" />
+  <div class="featured-dog-button">
+    <a href="featuredrescues.html">
+      <img src="assets/featuredrescues/bellabutton.gif" alt="featurerescue" width="230" height="115" border="0" />
+    </a>
+  </div>
+  <div class="content-wrapper">
+    <div class="navigation">
+      <ul class="nav nav-pills nav-stacked pull-right">
+        <li><a href="vounteer.html">Volunteer</a></li>
+        <li><a href="events.html">Events & Fairs</a></li>
+        <li><a href="tipsfromcesar.html">Tips for New Pets</a></li>
+        <li><a href="successstories.html">Success Stories</a></li>
+        <li><a href="fostertoadopt.html">Adoptable Friends</a></li>
+        <li><a href="emergency.html">Emergency Needs</a></li>
+        <li><a href="wishlist.html">Wish List</a></li>
+        <li><a href="hbrladoptionform.pdf">Application</a></li>
+      </ul>
+    </div>
+    <div class="content">
       <span class="event-header">Meet & Greet Adoptable Dogs</span><br/> 
-        <span class="copy">Spend a Saturday with Homeward Bound Rescue League <br />
-        &amp; Pet Supplies Plus. We are at the</span> <a href="http://psp.know-where.com/petsuppliesplus/cgi/site?site=00015&amp;address=&amp;design=default&amp;lang=en&amp;mapid=US" target="_blank"><span class="style15">Pet Supplies Plus</span></a> <span class="copy">located <br />
-        on Ford Road in Canton, Michigan between Morton Taylor and Sheldon on the south side of Ford Road  from </span><span class="style15">noon-3:30pm <br />
+        <span class="copy">Spend a Saturday with Homeward Bound Rescue League 
+        &amp; Pet Supplies Plus. We are at the</span> <a href="http://psp.know-where.com/petsuppliesplus/cgi/site?site=00015&amp;address=&amp;design=default&amp;lang=en&amp;mapid=US" target="_blank"><span class="style15">Pet Supplies Plus</span></a> <span class="copy">located 
+        on Ford Road in Canton, Michigan between Morton Taylor and Sheldon on the south side of Ford Road  from </span><span class="style15">noon-3:30pm 
         </span><span class="copy">the first and third Saturday of each month.</span>
         <br />
         __________________________________________________
         <br />
         <br />
         <span class="event-header">Meet & Greet Adoptable Cats</span><br/> 
-        <span class="copy">The first and third Sunday of each month at <a href="http://psp.know-where.com/petsuppliesplus/cgi/site?site=00015&amp;address=&amp;design=default&amp;lang=en&amp;mapid=US" target="_blank" class="style15">Pet Supplies Plus</a> <br />
+        <span class="copy">The first and third Sunday of each month at <a href="http://psp.know-where.com/petsuppliesplus/cgi/site?site=00015&amp;address=&amp;design=default&amp;lang=en&amp;mapid=US" target="_blank" class="style15">Pet Supplies Plus</a> 
         is the </span><span class="style15">Kitten/Cat</span><span class="copy"> adoption fair from <span class="style15">noon-3:30pm</span>.</span><br />
         <br />
         __________________________________________________
@@ -212,7 +55,7 @@ function MM_nbGroup(event, grpName) { //v6.0
         <br />
         <span class="event-header">Parisian Booklets @ Hillers</span><br/> 
       <span class="copy">We will be selling </span><span class="style15"><a href="assets/eventsfairspage/communitydaysflier.gif" target="_blank">Parisian Booklets</a> at Hillers</span><span class="copy"> on 5 mile and Haggerty in Northville on </span><span class="style15">Mar. 31st between 9am and 6pm</span><span class="copy">.<br />
-        We will be at </span><span class="style15">Parisian in Laurel Park Place</span><span class="copy"> at 6 mile and Newburgh in Livonia, Mi on </span><span class="style15">Saturday, April 14th from 2pm <br />
+        We will be at </span><span class="style15">Parisian in Laurel Park Place</span><span class="copy"> at 6 mile and Newburgh in Livonia, Mi on </span><span class="style15">Saturday, April 14th from 2pm 
         to 4pm</span><span class="copy">.*<br />
         <br />
         *All proceeds will be going pay vet bills, vaccinations, food, and supplies needed to rescue and take care of the rescued dogs.</span><br />
@@ -220,27 +63,27 @@ function MM_nbGroup(event, grpName) { //v6.0
         <br />
         <br />
         <span class="event-header">Hairathon</span><br/>
-        <span class="copy">Join us for a </span><span class="style15">Hairathon</span> <span class="copy">on Wednesday, May 2nd at</span> <br /><span class="style15">Distinct Designs Hair Salon</span> <span class="copy">located on Ford Road in Canton, MI.</span>
+        <span class="copy">Join us for a </span><span class="style15">Hairathon</span> <span class="copy">on Wednesday, May 2nd at</span> <span class="style15">Distinct Designs Hair Salon</span> <span class="copy">located on Ford Road in Canton, MI.</span>
         <br />
         __________________________________________________
         <br />
         <br />
         <span class="event-header">Giant Yard Sale</span><br/>
-        <span class="copy">Stop by and see us at our </span><span class="style15">Giant Yard Sale</span><span class="copy"> will be held on</span> <span class="style15">May 31st, <br/>June 1st, and June 2nd</span><span class="copy">! Location to be announced very soon.</span>
+        <span class="copy">Stop by and see us at our </span><span class="style15">Giant Yard Sale</span><span class="copy"> will be held on</span> <span class="style15">May 31st, June 1st, and June 2nd</span><span class="copy">! Location to be announced very soon.</span>
         <br />
         __________________________________________________
         <br />
         <br />
         <span class="event-header">Bowl-a-thon</span><br/> 
-        <span class="copy">Our second annual </span><span class="style15">Bowl-a-thon</span> <span class="copy">is coming up at the end of May... <br/>Exact date and location to be announced soon!</span>
+        <span class="copy">Our second annual </span><span class="style15">Bowl-a-thon</span> <span class="copy">is coming up at the end of May... Exact date and location to be announced soon!</span>
         <br />
         __________________________________________________
         <br />
         <br />
-    </div></td>
-  </tr>
-  <tr>
-    <td height="68" colspan="3" align="left" valign="top">
+      </div>
+    </div>
+
+
     <table width="1200" border="0" cellpadding="0" cellspacing="0" frame="void">
       <tr>
         <td height="17" colspan="11" valign="top"><div align="center" class="footer"> Homeward Bound Rescue League,  P.O. Box 87591,  Canton, MI 48187     l <a href="mailto:homewardboundmi@yahoo.com" target="_blank">homewardboundmi@yahoo.com</a></div>
@@ -264,10 +107,9 @@ function MM_nbGroup(event, grpName) { //v6.0
         <td width="114">&nbsp;</td>
       </tr>
     </table>
-  </td>
-  </tr>
-</table>
-<div id="apDiv9"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=homewardboundmi@yahoo.com&amp;item_name=Homeward Bound Rescue League&amp;item_number=Email Link Donation&amp;no_shipping=1&amp;no_note=1&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;bn=PP-DonationsBF&amp;charset="><img src="assets/eventsfairspage/eventdonate.jpg" alt="donate" width="110" height="38" border="0" usemap="#Map4" longdesc="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=homewardboundmi@yahoo.com&item_name=Homeward Bound Rescue League&item_number=Email Link Donation&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP-DonationsBF&charset=" />
+</div>
+
+<!--<div id="apDiv9"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=homewardboundmi@yahoo.com&amp;item_name=Homeward Bound Rescue League&amp;item_number=Email Link Donation&amp;no_shipping=1&amp;no_note=1&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;bn=PP-DonationsBF&amp;charset="><img src="assets/eventsfairspage/eventdonate.jpg" alt="donate" width="110" height="38" border="0" usemap="#Map4" longdesc="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=homewardboundmi@yahoo.com&item_name=Homeward Bound Rescue League&item_number=Email Link Donation&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP-DonationsBF&charset=" />
 <map name="Map4" id="Map4"><area shape="poly" coords="53,19" href="#" alt="" /></map></a></div>
 <div id="apDiv8">
 <div align="right"><a href="vounteer.html" target="_top" onclick="MM_nbGroup('down','group1','volunteeroff','assets/navbuttons/volunteerdown.gif',0)" onmouseover="MM_nbGroup('over','volunteeroff','assets/navbuttons/volunteerover.gif','assets/navbuttons/volunteeron.gif',0)" onmouseout="MM_nbGroup('out')"><img src="assets/navbuttons/volunteeroff.gif" alt="volunteer" name="volunteeroff" width="127" height="31" border="0" id="volunteer" onload="" /></a><br />
@@ -301,5 +143,6 @@ function MM_nbGroup(event, grpName) { //v6.0
 <area shape="poly" coords="163,38,185,168,537,117,514,1,403,1,163,37" href="index.html" alt="home" />
 </map>
 <div id="apDiv12"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=www.hbrlmi.org','SiteLock','width=600,height=600,left=160,top=170');" ><img  src="http://shield.sitelock.com/shield/www.hbrlmi.org" alt="website security" border="0" title="SiteLock"/></a></div>
+-->
 </body>
 </html>
