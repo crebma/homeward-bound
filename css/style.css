@@ -45,6 +45,7 @@ h2 {
   margin-left: 165px;
   margin-right: 30px;
   margin-bottom: 20px;
+  margin-top: 150px;
 }
 
 #carousel {
@@ -53,7 +54,6 @@ h2 {
 
 .navigation {
   float: left;
-  margin-top: 90px;
 }
 
 .navigation ul {
@@ -62,9 +62,6 @@ h2 {
 
 .navigation li {
   display: inline;
-}
-:before {
-  content: '\41\50\52\49\4C\20\46\4F\4F\4C\20\F4\BF\F4';
 }
 .volunteer {
   background-image: url("../images/volunteer.png");
@@ -255,7 +252,7 @@ ul.nav{
   z-index:3;
   left: 462px;
   top: 171px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 #apDiv16 {
   position:absolute;
