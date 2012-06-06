@@ -76,3 +76,14 @@ h2 {
 	font-size: 9px;
 	color: #000000;
 }
+.footer {
+	text-align: center;
+}
+.footer li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px;
+}
+.events-wrapper {
+	margin-right: 10px;
+}

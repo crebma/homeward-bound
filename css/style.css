@@ -69,34 +69,13 @@ h2 {
   height: 75px;
   width: 200px;
 }
-
 .footer {
-  margin: 0 auto;
-}
-
-.contact, .sponsors {
-  list-style: none;
   text-align: center;
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
 }
-
-.contact li {
+.footer li {
+  list-style-type: none;
   display: inline;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.contact li:first-child {
-  border-right: 1px solid #4191DE;
-}
-
-.sponsors li {
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 20px;
 }
 
 ul.nav{
