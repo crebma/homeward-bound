@@ -35,6 +35,7 @@ h2 {
 .container {
   background-color: white;
   width: 875px;
+  min-height: 425px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 30px;
@@ -43,11 +44,61 @@ h2 {
 .content {
   margin-left: 165px;
   margin-right: 30px;
-  margin-top: 137px;
+  margin-bottom: 20px;
+  margin-top: 150px;
 }
+
+#carousel {
+  margin-top: 160px;
+}
+
 .navigation {
   float: left;
 }
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline;
+}
+.volunteer {
+  background-image: url("../images/volunteer.png");
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 200px;
+}
+
+.footer {
+  margin: 0 auto;
+}
+
+.contact, .sponsors {
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.contact li {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contact li:first-child {
+  border-right: 1px solid #4191DE;
+}
+
+.sponsors li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 ul.nav{
   padding-left: 0px;
   margin-top: 0px;
@@ -201,7 +252,7 @@ ul.nav{
   z-index:3;
   left: 462px;
   top: 171px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 #apDiv16 {
   position:absolute;
