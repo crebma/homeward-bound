@@ -86,6 +86,10 @@ a:active {
   background-color: #466C91;
 }
 
+#carousel {
+  max-height: 400px;
+}
+
 .footer {
   clear: both;
   text-align: center;
